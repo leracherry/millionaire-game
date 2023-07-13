@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "question": "What is the color of the White House?",
+      "answers": [
+        { "numbering": "A", "option": "Pink", "correct": false },
+        { "numbering": "B", "option": "Blue", "correct": false },
+        { "numbering": "C", "option": "White", "correct": true },
+        { "numbering": "D", "option": "Rainbow", "correct": false }
+      ],
+      "money": 500
+    },
+    {
+      "question": "How many legs does a spider typically have?",
+      "answers": [
+        { "numbering": "A", "option": "100", "correct": false },
+        { "numbering": "B", "option": "2", "correct": false },
+        { "numbering": "C", "option": "8", "correct": true },
+        { "numbering": "D", "option": "4", "correct": false }
+      ],
+      "money": 1000
+    },
+    {
+      "question": "What do you call a group of crows?",
+      "answers": [
+        { "numbering": "A", "option": "A flock", "correct": false },
+        { "numbering": "B", "option": "A murder", "correct": true },
+        { "numbering": "C", "option": "A gaggle", "correct": false },
+        { "numbering": "D", "option": "A herd", "correct": false }
+      ],
+      "money": 2000
+    },
+    {
+      "question": "What is the capital of Australia?",
+      "answers": [
+        { "numbering": "A", "option": "Sydney", "correct": false },
+        { "numbering": "B", "option": "Melbourne", "correct": false },
+        { "numbering": "C", "option": "Brisbane", "correct": false },
+        { "numbering": "D", "option": "Canberra", "correct": true }
+      ],
+      "money": 4000
+    },
+    {
+      "question": "What is the world's largest ocean?",
+      "answers": [
+        { "numbering": "A", "option": "Atlantic", "correct": false },
+        { "numbering": "B", "option": "Indian", "correct": false },
+        { "numbering": "C", "option": "Pacific", "correct": true },
+        { "numbering": "D", "option": "Arctic", "correct": false }
+      ],
+      "money": 8000
+    },
+    {
+      "question": "Who wrote the 'Game of Thrones' series of books?",
+      "answers": [
+        { "numbering": "A", "option": "J.K. Rowling", "correct": false },
+        { "numbering": "B", "option": "George R. R. Martin", "correct": true },
+        { "numbering": "C", "option": "Stephen King", "correct": false },
+        { "numbering": "D", "option": "Suzanne Collins", "correct": false }
+      ],
+      "money": 16000
+    },
+    {
+      "question": "What is the square root of 144?",
+      "answers": [
+        { "numbering": "A", "option": "12", "correct": true },
+        { "numbering": "B", "option": "14", "correct": false },
+        { "numbering": "C", "option": "16", "correct": false },
+        { "numbering": "D", "option": "18", "correct": false }
+      ],
+      "money": 32000
+    },
+    {
+      "question": "Which planet is known as the 'Red Planet'?",
+      "answers": [
+        { "numbering": "A", "option": "Venus", "correct": false },
+        { "numbering": "B", "option": "Mars", "correct": true },
+        { "numbering": "C", "option": "Jupiter", "correct": false },
+        { "numbering": "D", "option": "Saturn", "correct": false }
+      ],
+      "money": 64000
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "answers": [
+        { "numbering": "A", "option": "Gd", "correct": false },
+        { "numbering": "B", "option": "Go", "correct": false },
+        { "numbering": "C", "option": "Au", "correct": true },
+        { "numbering": "D", "option": "Ag", "correct": false }
+      ],
+      "money": 125000
+    },
+    {
+      "question": "Who painted the Mona Lisa?",
+      "answers": [
+        { "numbering": "A", "option": "Vincent Van Gogh", "correct": false },
+        { "numbering": "B", "option": "Pablo Picasso", "correct": false },
+        { "numbering": "C", "option": "Leonardo da Vinci", "correct": true },
+        { "numbering": "D", "option": "Michelangelo", "correct": false }
+      ],
+      "money": 250000
+    },
+    {
+      "question": "What is the name of the longest river in the world?",
+      "answers": [
+        { "numbering": "A", "option": "Amazon", "correct": false },
+        { "numbering": "B", "option": "Nile", "correct": true },
+        { "numbering": "C", "option": "Yangtze", "correct": false },
+        { "numbering": "D", "option": "Mississippi", "correct": false }
+      ],
+      "money": 500000
+    },
+    {
+      "question": "Who was the first person to walk on the moon?",
+      "answers": [
+        { "numbering": "A", "option": "Buzz Aldrin", "correct": false },
+        { "numbering": "B", "option": "Neil Armstrong", "correct": true },
+        { "numbering": "C", "option": "Yuri Gagarin", "correct": false },
+        { "numbering": "D", "option": "Michael Collins", "correct": false }
+      ],
+      "money": 1000000
+    }
+  ]
+}

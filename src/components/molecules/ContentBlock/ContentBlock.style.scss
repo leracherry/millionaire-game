@@ -1,0 +1,68 @@
+.game-start-block,
+.game-end-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .total-score-paragraph {
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #88888c;
+
+    @media screen and (max-width: 769px) {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 21px;
+      text-align: center;
+    }
+  }
+}
+
+.start-button {
+  margin-top: 54px;
+}
+
+.game-end-block .game-start-paragraph,
+.game-start-block .game-start-paragraph {
+  margin-top: 0;
+  display: block;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+  .game-start-block {
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 524px;
+    max-height: 358px;
+  }
+
+  .game-end-block {
+    margin-right: 150px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 624px;
+    max-height: 358px;
+  }
+
+  .start-button {
+    margin-top: 4px;
+  }
+
+  .game-end-block .game-start-paragraph,
+  .game-start-block .game-start-paragraph {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: left;
+  }
+}

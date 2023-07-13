@@ -1,0 +1,17 @@
+.choice-button-text {
+  position: absolute;
+  padding-left: 45px;
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ff8b37;
+  z-index: 1;
+
+  .answer-option {
+    padding-left: 15px;
+    color: #1c1c21;
+  }
+}

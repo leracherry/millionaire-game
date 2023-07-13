@@ -1,0 +1,23 @@
+.game-over-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f7;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .hand-image-game-over {
+      align-items: center;
+      width: 288px;
+      height: 192px;
+    }
+  }
+}
+
+.hand-image-game-over {
+  margin-bottom: 30px;
+}

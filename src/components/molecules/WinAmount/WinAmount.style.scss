@@ -1,0 +1,53 @@
+.win-amount-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.win-amount-svg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+
+  &.current-amount {
+    #win-amount-vektor {
+      stroke: #ff8b37;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    height: 40px;
+  }
+}
+
+.win-amount-vektor {
+  &.current-amount {
+    #vektor-group {
+      stroke: #ff8b37;
+    }
+  }
+}
+
+.win-amount-paragraph {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #1c1c21;
+
+  &.less-amount {
+    color: #d0d0d8;
+  }
+
+  &.current-amount {
+    color: #ff8b37;
+  }
+}

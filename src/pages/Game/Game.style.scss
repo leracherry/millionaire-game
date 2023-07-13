@@ -1,0 +1,23 @@
+.game-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f5f5f7;
+
+  @media screen and (min-width: 769px) {
+    flex-direction: row;
+    .left-content {
+      padding: 0;
+      flex: 80%;
+      padding: 80px;
+    }
+
+    .right-content {
+      flex: 20%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

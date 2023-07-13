@@ -1,0 +1,68 @@
+.choice-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+  &:hover {
+    .vektor #vektor-group {
+      stroke: #ff8b37;
+    }
+    .svg-button #svg-group {
+      fill: #fff3eb;
+      stroke: #ff8b37;
+    }
+  }
+}
+
+.svg-button {
+  transition: all 150ms ease-in-out;
+  max-width: -webkit-fill-available;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  align-items: center;
+  justify-content: flex-start;
+
+  @media screen and (min-width: 768px) {
+    width: 389px;
+    height: 72px;
+    margin: 15px 0 15px 0;
+  }
+
+  #svg-group {
+    fill: white;
+    stroke: #d0d0d8;
+    transition: fill 150ms ease-in, stroke 150ms ease-in;
+  }
+  &.right-answer {
+    #svg-group,
+    .vektor #vektor-group {
+      fill: #e6faea;
+      stroke: #47d867;
+    }
+  }
+
+  &.wrong-answer {
+    #svg-group,
+    .vektor #vektor-group {
+      fill: #fdeeed;
+      stroke: #ec6259;
+    }
+  }
+}
+
+.vektor {
+  cursor: default;
+  width: 15px !important;
+
+  #vektor-group {
+    stroke: #d0d0d8;
+    border: 5px;
+  }
+}

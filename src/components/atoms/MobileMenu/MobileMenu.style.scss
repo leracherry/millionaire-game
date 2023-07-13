@@ -1,0 +1,25 @@
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.menu-toggle {
+  transition: all 150ms ease-in-out;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 1rem;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0;
+}
+
+.menu-icon {
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,42 @@
+.main-button {
+  transition: all 150ms ease-in-out;
+  max-width: -webkit-fill-available;
+  -webkit-appearance: button;
+  cursor: pointer;
+  width: 288px;
+  height: 48px;
+  border-radius: 8px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  outline: 0 none;
+  font-size: 16px;
+  border-style: solid;
+  border-color: transparent;
+  background-color: #ff8b37;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+
+  @media screen and (min-width: 769px) {
+    width: 296px;
+    height: 64px;
+    border-radius: 12px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  &:hover {
+    background-color: #ffac70;
+  }
+
+  &:active {
+    background-color: #e87928;
+  }
+}
