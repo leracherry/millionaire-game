@@ -7,7 +7,7 @@ export const GameStart = () => {
   const navigate = useNavigate();
 
   function redirectToPlay() {
-    navigate("/play");
+    navigate("/millionaire-game/play");
   }
 
   return (

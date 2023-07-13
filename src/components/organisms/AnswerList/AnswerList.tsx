@@ -37,7 +37,7 @@ export const AnswerList: FC<AnswerListProps> = ({ questions }) => {
         dispatch(handleNextQuestion());
         dispatch(countWinAmount(currentQuestion.money));
       } else {
-        navigate("/gameover");
+        navigate("/millionaire-game/gameover");
         dispatch(resetQuestions());
       }
     }, 1500);
