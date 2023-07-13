@@ -9,7 +9,7 @@ export const GameOver = () => {
   const winAmount = useSelector((state: any) => state.question.winAmount);
 
   function redirectToPlay() {
-    navigate("/");
+    navigate("/millionaire-game");
   }
 
   return (
