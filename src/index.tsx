@@ -15,9 +15,7 @@ if (rootElement) {
   ReactDOM.render(
     <React.StrictMode>
       <Provider store={store}>
-        <HashRouter basename="/millionaire-game">
-          <App />
-        </HashRouter>
+        <App />
       </Provider>
     </React.StrictMode>,
     rootElement
