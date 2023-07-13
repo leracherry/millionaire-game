@@ -14,11 +14,11 @@ const store = createStore(rootReducer);
 if (rootElement) {
   ReactDOM.render(
     <React.StrictMode>
-      <HashRouter>
-        <Provider store={store}>
+      <Provider store={store}>
+        <HashRouter>
           <App />
-        </Provider>
-      </HashRouter>
+        </HashRouter>
+      </Provider>
     </React.StrictMode>,
     rootElement
   );
