@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/" element={<GameStart />} />
-          <Route path="/play" element={<Game />} />
-          <Route path="/gameover" element={<GameOver />} />
+          <Route path="/millionaire-game" element={<GameStart />} />
+          <Route path="/millionaire-game/play" element={<Game />} />
+          <Route path="/millionaire-game/gameover" element={<GameOver />} />
         </Routes>
       </Router>
     </div>
